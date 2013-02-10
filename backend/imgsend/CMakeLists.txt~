@@ -1,0 +1,4 @@
+project( MatConverter )
+find_package( OpenCV REQUIRED )
+add_executable( MatConverter MatConverter )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
